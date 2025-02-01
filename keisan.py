@@ -12,6 +12,6 @@ def main():
             st.success(f"結果: {result}")
         except Exception as e:
             st.error(f"エラー: {e}")
-
+            st.image("onepiece13_crocodile.png", caption="電卓の画像", use_column_width=True)
 if __name__ == "__main__":
     main()
